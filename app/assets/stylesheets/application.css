@@ -1,0 +1,162 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+a:hover {
+  background-color: transparent;
+}
+
+.nav-item {
+  font-size: 16px;
+}
+
+.nav-item a:hover {
+  color: blue;
+}
+
+.hero .hero-main {
+
+  color: #1b1b1b;
+  max-height: 760px;
+  display: flex;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+
+
+
+.columns h1 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 64px;
+  margin-top: 150px;
+}
+
+.body1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 25px;
+}
+
+.topimage {
+  width: 45%;
+  height: auto;
+
+}
+
+.hero-main .mobile-screenshots {
+  position: relative;
+}
+
+
+
+.columns .is-two-fifths {
+  flex: none;
+  width: 40%;
+}
+
+.column {
+  display: flex;
+  padding: 12px;
+}
+
+.hero-body {
+  background-color: #9DBBF8;
+  height: 600px;
+}
+
+.topimage {
+  width: 50%;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.column .is-centered {
+  justify-content: center;
+}
+
+.has-text-centered {
+  text-align: center;
+}
+
+.has-text-centered h2 {
+  font-size: 45px;
+  font-weight: 800px;
+}
+
+.section {
+  padding: 48px 24px;
+
+}
+
+section {
+  display: block;
+}
+
+.section.features {
+  background-color: #F6F6F6;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.section.features h3 {
+  color: #1b1b1b;
+  font-size: 28px;
+  font-weight: 800px;
+  line-height: 32px;
+  margin-top: 18px;
+  margin-bottom: 4px;
+}
+
+.section .features .box {
+  background-color: #ffffff;
+  border-radius: 16px;
+  height: 100%;
+  padding: 30px;
+  box-shadow: 0px 4px 12px raba(0,0,0,0,12),
+  0px 0px 2px raba(0,0,0,0,8);
+}
+
+.column .is-half {
+  flex: none;
+  width: 50%;
+}
+
+.is-one-third {
+  width: 33.333%;
+}
+
+.column .is-desktop {
+  display: flex;
+}
+
+.column .is-one-third h2 {
+  font-size: 40px;
+  font-weight: 880px;
+  line-height: 44px;
+}
+
