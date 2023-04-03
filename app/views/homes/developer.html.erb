@@ -19,13 +19,92 @@
       <div class="columns-d is-6">
         <h1>仕様</h1>
         <p class="body-d">
-          このアプリケーションはあなたとあなたのパートナーの会話を漏洩しません。<br>
-          
+          これはテストです。<br>
+          メッセージング環境での暗号化は、さまざまなアプリケーションで別々に<br>
+          構成する必要がある多くのアイデアを統合します。<br>
+          さまざまなプロジェクトに適切に統合できるように、<br>
+          アイデアを独立した仕様に分割するよう努めています。
         </p>
       </div>
     </div>
+    <div class="columns-d">
+      <div class="columns-d is-6">
+        <p class="body2-d semibold">
+          <a href="#"><h5>XEdDSA と VXEdDSA</h5>
+          </a>
+          </p>
+
+          <p class="body2-d spec">
+            このドキュメントでは、X25519 および X448 楕円曲線 Diffie-Hellman<br>
+            関数用に最初に定義された公開鍵と秘密鍵の形式を使用して、<br>
+            EdDSA 互換の署名を作成および検証する方法について説明します。<br>
+            このドキュメントでは、XEdDSA を拡張して検証可能なランダム関数 (VRF) にする<br>
+            「VXEdDSA」についても説明します。
+          </p>
+
+          <p class="body2-d semibold">
+            <a href="#">
+              <h5>X3DH</h5>
+            </a>
+          </p>
+          <p class="body2-d spec">
+            このドキュメントでは、「X3DH」(または「Extended Triple Diffie-Hellman」)<br>
+            鍵合意プロトコルについて説明します。<br>
+            X3DH は、公開鍵に基づいて相互に認証する 2 つの当事者間で<br>
+            共有秘密鍵を確立します。<br>
+            X3DH は、前方秘匿性と暗号による否認性を提供します。
+          </p>
+        </div>
+
+        <div class="columns-d is-6">
+          <p class="body2-d semibold">
+            <a href="#">
+              <h5>ダブルラチェット</h5>
+            </a>
+          </p>
+          <p class="body2-d spec">
+            このドキュメントでは、共有秘密鍵に基づいて暗号化されたメッセージを交換するために<br>
+            2 つの当事者が使用する Double Ratchet アルゴリズムについて説明します。<br>
+            両当事者は、ダブル ラチェット メッセージごとに新しいキーを導出するため、<br>
+            以前のキーを後のキーから計算することはできません。<br>
+            当事者は、メッセージに添付された Diffie-Hellman 公開値も送信します。<br>
+            Diffie-Hellman 計算の結果は派生キーに混合されるため、後のキーが前のキーから<br>
+            計算されることはありません。<br>
+            これらのプロパティは、パーティのキーが侵害された場合に、<br>
+            以前または後で暗号化されたメッセージをある程度保護します。
+          </p>
+
+          <p class="body2-d semibold">
+            <a href="#"><h5>Sesame</h5>
+            </a>
+          </p>
+
+          <p class="body2-d spec">
+            このドキュメントでは、非同期およびマルチデバイス設定でメッセージ暗号化セッションを<br>
+            管理するためのセサミ アルゴリズムについて説明します。
+          </p>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
 
+</section>
+
+<section class="section-d docs">
+  <div class="column-d">
+    <h2>ソフトウェアライブラリ</h2>
+    <ul>
+      <li>
+        <a href="#">Mystikogramライブラリ</a>
+      </li>
+    </ul>
+  </div>
+  
 </section>
 
 

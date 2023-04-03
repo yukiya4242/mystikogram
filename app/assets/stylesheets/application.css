@@ -323,3 +323,26 @@ img {
   padding: 12px;
 }
 
+.column-d .is-6 {
+  flex: none;
+  width: 50%;
+}
+
+.column-d .is-6 h2 {
+  font-size: 40px;
+  font-weight: 880;
+  line-height: 44px;
+}
+
+.columns-d:last-child {
+  margin-bottom: 12px;
+}
+
+
+.docs .body2-d .semibold {
+  margin-bottom: 16px;
+}
+
+.docs .spec {
+  margin-bottom: 30px;
+}
