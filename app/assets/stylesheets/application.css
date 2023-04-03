@@ -14,6 +14,27 @@
  *= require_self
  */
 
+/* .sticky-header {*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  z-index: 9999;*/
+/*}*/
+
+/*.sticky-footer {*/
+/*  position: fixed;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  z-index: 9999;*/
+/*}*/
+
+
+ li {
+   list-style: none;
+ }
+
 a:hover {
   background-color: transparent;
 }
@@ -160,3 +181,41 @@ img {
   line-height: 44px;
 }
 
+.hero1 {
+  width: 100%;
+  height: 400px;
+  padding: 0 20px;
+  text-align: center;
+  background-size: cover;
+  background-color: #9DBBF8;
+
+}
+
+.hero-inner {
+  position: relative;
+  top: 50%;
+  max-width: 610px;
+  margin: 0 auto;
+  transform: translateY(-50%);
+}
+
+.hero-inner h1 {
+  font-size: 50px;
+  font-weight: 800px;
+  line-height: 44px;
+  padding-bottom: 20px;
+}
+
+.container-help {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.blocks-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
