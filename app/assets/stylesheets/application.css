@@ -297,3 +297,29 @@ img {
 
 }
 
+
+/*ここからdeveloperページ*/
+
+.documentation {
+  background-color: #f6f6f6;
+  margin: 12px 40px 0 0 ;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.container-d {
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+.columns-d {
+  margin: 12px 0 12px 12px;
+
+}
+
+.column-d {
+  display: block;
+  padding: 12px;
+}
+
