@@ -1,0 +1,62 @@
+<main role="main">
+  <div class="container-divider">
+    <div class="container-contact">
+      <nav class="sub-nav">
+        <ol class="breadcrumbs">
+          <li class="breadcrumbs">
+            <%= link_to "Mystikogram サポート", help_path %>
+          </li>
+          <li title="リクエストを送信">
+            >>
+            リクエストを送信
+          </li>
+        </ol>
+        <div class="w-50 input-group">
+         <%= text_field_tag :keyword, nil, class: "form-control", placeholder: "キーワードを入力" %>
+        <div class="input-group-append">
+         <%= button_tag(type: "submit", class: "btn btn-outline-success", id: "button-addon2") do %>
+         <i class="fas fa-search"></i> 検索
+         <% end %>
+  </div>
+</div>
+
+      </nav>
+
+<h1>リクエストを送信</h1>
+<div class="form">
+  <%= form_with url: contact_path, method: :post do |f| %>
+  <div class="form-group">
+    <%= f.label :name, "お名前" %><span class="come">*</span>
+    <%= f.text_field :name, class: "form-control", required: true %>
+  </div>
+
+  <div class="form-group">
+    <%= f.label :email, "メールアドレス" %><span class="come">*</span>
+    <%= f.email_field :email, class: "form-control", required: true %>
+  </div>
+
+
+
+  <div class="form-group">
+    <%= f.label :message, "お問い合わせ内容" %><span class="come">*</span>
+    <%= f.text_area :message, class: "form-control", required: true %>
+  </div>
+
+
+  <%= f.submit "送信する", class: "btn btn-primary" %>
+<% end %>
+
+
+</div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+</main>

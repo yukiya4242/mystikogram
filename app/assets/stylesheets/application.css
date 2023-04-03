@@ -65,6 +65,7 @@ a:hover {
 
 
 
+
 .columns h1 {
   font-size: 60px;
   font-weight: 800;
@@ -123,7 +124,7 @@ a:hover {
 
 .has-text-centered h2 {
   font-size: 45px;
-  font-weight: 800px;
+  font-weight: 800;
 }
 
 .section {
@@ -147,7 +148,7 @@ img {
 .section.features h3 {
   color: #1b1b1b;
   font-size: 28px;
-  font-weight: 800px;
+  font-weight: 800;
   line-height: 32px;
   margin-top: 18px;
   margin-bottom: 4px;
@@ -177,7 +178,7 @@ img {
 
 .column .is-one-third h2 {
   font-size: 40px;
-  font-weight: 880px;
+  font-weight: 880;
   line-height: 44px;
 }
 
@@ -201,7 +202,7 @@ img {
 
 .hero-inner h1 {
   font-size: 50px;
-  font-weight: 800px;
+  font-weight: 800;
   line-height: 44px;
   padding-bottom: 20px;
 }
@@ -219,3 +220,80 @@ img {
   list-style: none;
   padding: 0;
 }
+
+.blocks-item {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 0 340px;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  text-align: center;
+
+}
+
+.blocks-item-link {
+  color: rgba(27, 27, 27, 1);
+  height: 100%;
+  padding: 20px 30px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.12), 0px 0px 2px rgba(0,0,0,0.08);
+  border: 1px solid #fff;
+  border-radius: 8px;
+  text-decoration: none;
+
+}
+
+.blocks-item-title h4 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+}
+
+.blocks-item-discription {
+  margin: 10px 0 0 0;
+  font-weight: 300;
+
+}
+
+.container-divider {
+  border-top: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.container-contact {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 5%;
+
+}
+
+.sub-nav {
+  aline-items: baseline;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  min-height: 50px;
+  padding-bottom: 15px;
+}
+
+.breadcrumbs {
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+
+.breadcrumbs li {
+  color: #4e4e4e;
+  display: inline;
+  font-weight: 300;
+  font-size: 13px;
+  max-width: 450px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
