@@ -4,9 +4,9 @@ Rails.application.routes.draw do
   devise_for :users
 
     # チャット機能テスト用
-    root to: 'rooms#show'
+    # root to: 'rooms#show'
 
-  # root to: 'homes#top'
+  root to: 'homes#top'
 
   get '/help', to: 'homes#help'
   get '/contact', to: 'homes#contact'
